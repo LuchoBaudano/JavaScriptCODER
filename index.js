@@ -15,3 +15,8 @@ function CuriosidadesGamer(){
         continuar = confirm ("desea continuar?")
     }while(continuar)
 }
+//*PARTE TRABAJO ARRAYS*//
+    const juegos = ["resident evil 4","grand theft auto sa","call of duty black ops 2"]
+    console.log(juegos [1]);
+ 
+    console.log("Cantidad de juegos del array: "+juegos.length);
